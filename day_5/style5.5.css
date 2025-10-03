@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(255, 148, 225);
+    color: rgb(228, 228, 228);
+}
+#m1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+#m2{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+@media(min-width:600px){
+    #m1{
+        background-color: rgb(16, 96, 103);
+    }
+    #m2{
+        background-color: rgb(51, 0, 146);
+    }
+}

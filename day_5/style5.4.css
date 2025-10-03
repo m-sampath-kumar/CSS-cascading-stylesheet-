@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 30px;
+  height: 150px;
+  background: #f9f9f9;
+}
+
+.box {
+  width: 80px;
+  height: 60px;
+  margin: 5px;
+  background: rgb(255, 226, 83);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* 
+   align-self Example
+*/
+.align-demo {
+  align-items: flex-start;   /* default alignment for all */
+}
+.special-align {
+  align-self: flex-end;      /* only this box moves to bottom */
+}
+
+/* 
+   flex-grow Example
+*/
+.grow-demo {
+  height: auto;
+}
+.grow-1 {
+  flex-grow: 1;   /* grows proportionally 1 part */
+}
+.grow-2 {
+  flex-grow: 2;   /* grows double compared to box 1 */
+}
+.grow-3 {
+  flex-grow: 3;   /* grows triple compared to box 1 */
+}
+
+
+   /* flex-shrink Example */
+
+.shrink-demo {
+  height: 100px;
+  width: 150px;
+  display: flex; /* very small container */
+}
+.shrink-1 {
+
+  flex-shrink: 1; /* shrinks normally */
+}
+.shrink-2 {
+  flex-shrink: 2; /* shrinks faster */
+}
+.shrink-3 {
+  flex-shrink: 0; /* does not shrink */
+}

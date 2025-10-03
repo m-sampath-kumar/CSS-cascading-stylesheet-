@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+}
+
+.box {
+    height: 100px;
+  width: 100px;
+  background-color: teal;
+  color: white;
+  display: flex;
+}
+
+/* Different align-items classes */
+.align-start {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.align-center {
+     flex-direction: column;
+    align-items: center;
+}
+
+
+.align-end {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.align-stretch {
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.align-baseline {
+    flex-direction: row;
+    align-items: baseline;
+} 

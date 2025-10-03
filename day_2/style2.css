@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(185, 124, 241);
+}
+#box{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    text-transform:capitalize;
+    text-decoration:underline;
+    text-align: center;
+
+}
+#div1{
+    height: 250px;
+    width: 250px;
+    font-weight: bolder;
+    background-color: rgb(55, 242, 214);
+    color: rgb(1, 10, 10);
+    border: 2px;
+    border-style: solid;
+    border-color: bisque;
+    display: block;
+
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    font-weight: bolder;
+    background-color: rgb(78, 6, 92);
+    color: azure;
+    border: 2px;
+    border-style: solid;
+    border-color: bisque;
+    margin-top: 30px;
+    padding:100px; 
+    display:inline-block; 
+    /* inline- block: similar to inline but here, we can apply the margin and padding properties also.  */
+}
+#div3{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(247, 244, 44);
+    color: rgb(12, 18, 18);
+    border: 2px;
+    border-style: solid;
+    border-color: bisque; 
+    margin-top: 30px; 
+    display: inline;
+}
+#div4{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(105, 250, 37);
+    color: azure;
+    border: 2px;
+    border-style: solid;
+    border-color: bisque;
+    margin-top: 30px;
+    display: inline-block;
+    visibility: hidden;
+    
+}
+#div5{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(134, 40, 90);
+    color: azure;
+    border: 2px;
+    border-style: solid;
+    border-color: bisque;
+    margin-top: 30px;
+    display: none;
+    
+}
+#div6{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(243, 16, 16);
+    color: azure;
+    border: 2px;
+    border-style: solid;
+    border-color: bisque;
+    margin-top: 30px;
+    display: inline-block;
+    
+}

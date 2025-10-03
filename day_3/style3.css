@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(50, 4, 99);
+
+}
+#outdiv{
+    height: 300px;
+    width: 300px;
+    background-color: azure;
+    padding-left: 5rem;
+    padding-top:5rem;
+    
+}
+#indiv{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(247, 3, 133);
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+h2{
+    color: beige;
+}
+
+#parent{
+    height: 8000px;
+    width: 500px;
+    background-color: rgb(249, 249, 32);
+}
+
+#c1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    /* element is relative to parent */
+    top: 20px;
+    
+}
+
+#c2{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    /* div3 is behind div2 */
+    
+}
+#c3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(59, 255, 147);
+    position: absolute;
+    top: 20px;
+    /* it is relative to screen, removed from flow. */
+    /* if we mention relative to parent then it is relative to parent only */
+}
+
+#c4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(137, 59, 255);
+    position: fixed;
+    top: 300px;
+    /* it won't move, from the mentioned axis */
+
+}
+#c5{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 115, 227, 0.904);
+    position: sticky;
+    top: 30px;
+    /* after scrolling it is fixed to mentioned axis */
+}

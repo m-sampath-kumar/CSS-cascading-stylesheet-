@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(3, 25, 27);
+    color: white;
+}
+#hov1{
+     height: 100px;
+    width: 100px;
+    background-color: rgb(41, 224, 139);
+}
+#hov2{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+#hov1:hover{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+#hov2:hover{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 160, 255);
+    color: white;
+}
+
+#hov1:active{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(252, 221, 21);
+}
+#hov2:active{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 100, 180);
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(73, 0, 132);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Box 1 → smooth size change */
+.box1 {
+  transition: width 0.5s ease, height 0.5s ease;
+}
+.box1:hover {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(113, 234, 255);
+}
+
+/* Box 2 → color change */
+.box2 {
+  transition: background-color 0.8s ease-in-out;
+}
+.box2:hover {
+  background-color: crimson;
+ 
+}
+
+/* Box 3 → rotation & scaling */
+.box3 {
+  transition: transform 0.6s ease;
+}
+.box3:hover {
+  transform: rotate(20deg) scale(1.3);
+  background-color: darkorange;
+}
+
+.box-t {
+  width: 200px;
+  height: 200px;
+  background: rgb(21, 150, 255);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 1s ease; /* default */
+}
+
+/* Transition Timing */
+.ease:hover {
+  background: tomato;
+  transform: translateY(-40px);
+  transition-timing-function: ease;
+}
+
+.ease-in:hover {
+  background: rgb(2, 2, 141);
+  transform: translateY(-40px);
+  transition-timing-function: ease-in;
+}
+
+.ease-in-out:hover {
+  background: rgb(114, 0, 137);
+  transform: translateY(40px);
+  transition-timing-function: ease-in-out;
+}
+
+/* Skew transforms */
+.skew-x:hover {
+  background: purple;
+  transform: skewX(25deg);
+}
+
+.skew-y:hover {
+  background: rgb(255, 26, 156);
+  transform: skewY(25deg);
+}

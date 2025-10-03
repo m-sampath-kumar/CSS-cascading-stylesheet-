@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;       /* needed for align-content */
+  height: 500px;         /* extra height to see the effect */
+  padding: 10px;
+  background: #f9f9f9;
+
+  /* Try different align-content values */
+  align-content: center;     
+
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-content: space-evenly; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background: rgb(105, 253, 47);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

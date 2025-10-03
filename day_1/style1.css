@@ -1,0 +1,35 @@
+#h2{
+    background-color: rgb(247, 211, 157);
+    color: black;
+    font-family: Libertinus Sans;
+    font-size:25px;
+}
+.font{
+    background-color: rgb(13, 13, 93);
+    color: rgb(196, 244, 244);
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: underline;
+}
+#deco{
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+#tdeco{
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: rgb(161, 38, 219);
+    color: aliceblue;
+}
+#transform{
+    background-color: #f4ff7f;
+    color: black;
+
+}
+
+#fweight{
+    background-color: rgb(19, 40, 146);
+    color: white;
+}
